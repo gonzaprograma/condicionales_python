@@ -23,6 +23,18 @@ numero_2 = -2
 #       --> En caso afirmativo imprima en pantalla "Resp=3"
 #       --> En caso negativo imprima en pantalla "Resp=4"
 
+if numero_1 > 5:
+    if numero_1 > 5 and numero_2 > 0:
+            print ("Resp=1")
+    else:
+            print ("Resp=2")
+elif numero_1 < 5 and numero_2 > 5:
+        print("resp=3")
+else :
+        print("resp=4")
+
+
+
 # Verifique la calificación de un estudiante según su
 # puntaje en un examen
 puntaje = 70
@@ -35,3 +47,14 @@ puntaje = 70
 
 # Debe imprimir en pantalla la calificacion
 # Utilizar "if" anidados
+
+if puntaje >= 90:
+    print ("Calificacion A")
+elif puntaje >= 80 and puntaje < 90:
+    print ("Calificacion B")
+elif puntaje >= 70 and puntaje < 80:
+    print ("Calificacion C")
+elif puntaje >= 60 and puntaje < 70:
+    print ("Calificacion D")
+elif puntaje < 60:
+    print ("Calificacion F")

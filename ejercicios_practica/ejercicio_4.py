@@ -17,12 +17,28 @@ texto_2 = '7'
 # se utiliza el operador mayor o menor con Strings (textos)
 # Imprima en pantalla según corresponda
 
+if texto_1 > texto_2:
+    print("El texto {} es mayor alfabeticamente al texto {}".format(texto_1, texto_2))
+elif texto_1 < texto_2:
+    print("El texto {} es mayor alfabeticamente al texto {}".format(texto_2, texto_1))
+else:
+    print("El texto {} es igual alfabeticamente al texto {}".format(texto_1, texto_2))
+
 # 2-Transforma esas variables tipo texto en variables numéricas con (int)
 # y almacénalas en nuevas variables.
 # Compare las nuevas variables para ver cual es mayor o menor
 # utilizando los operadores correspondientes
 # ¿Cuál de las nuevas variables es mayor?
 # Imprima en pantalla según corresponda
+
+texto_1 = int(input("ingresar numero para combertir variable de string a nuemrica: \n")) # 5
+texto_2 = int(input("ingresar numero para combertir variable de string a nuemrica: \n")) # 7
+
+if texto_1 > texto_2:
+    print ("Numericamente el {} es mayor al {}".format(texto_1, texto_2))
+elif texto_1 < texto_2:
+    print ("Numericamente el {} es mayor al {}".format(texto_2, texto_1))
+
 
 # Para pensar!
 # ¿Por qué cree que texto_2 es mayor a texto_1?
@@ -32,3 +48,8 @@ texto_2 = '7'
 # Esta pregunta estará repetida en el Campus para que puedan
 # responder.
 # NOTA: La respuesta no se encuentra en el apunte, sino en Google ;)
+
+# La respuesta está en el codigo ASCII, en el cual es valor del texto 7
+# es 55 y el valor del texto 5 es 53
+# fuente: https://elcodigoascii.com.ar/
+
